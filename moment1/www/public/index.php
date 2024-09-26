@@ -6,6 +6,38 @@
    <title>Document</title>
 </head>
 <body>
+   
+<!-- Moment 0 -->
+<?php include('header.html'); ?>
+<h1>Matematik-testet har ett fel svar hitta det</h1>
+<h2>Emil Flodmark</h2>
+<form action="evaluate.php" method="post">
+   <fieldset>
+       <legend>Frågor, gud</legend>
+       <label>Ditt Namn: </label>
+       <input type="text" name="name1">
+       <br>
+       <label>4 + 5 = </label>
+       <input type="text" name="q1">
+       <br>
+       <label>3 x 6 = </label>
+       <input type="text" name="q2">
+       <br>
+       <label>7 * 7 = </label>
+       <input type="text" name="q3">
+       <br>
+       <label>12 - 9 = </label>
+       <input type="text" name="q4">
+       <br>
+       <label>14 * 6 = </label>
+       <input type="text" name="q5">
+       <br>
+       <input type="submit" value="Rätta">
+   </fieldset>
+</form>
+
+<!-- Moment 1: -->
+<?php include('footer.html'); ?>
    <form action="convert.php" method="post">
       <fieldset>
          <Legend>Konvertera</Legend>
